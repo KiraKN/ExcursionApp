@@ -38,7 +38,7 @@ public class Ticket {
         this.numberOfTickets = numberOfTickets;
     }
 
-    public float ticketPriceALL() {
+    public float ticketPriceAll() {
         return ticketPrice * numberOfTickets;
     }
 

@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         infoApp = findViewById(R.id.infoApp);
 
-        float ticketPrice = ticket.ticketPriceALL();
-        float ticketPriceChild = ticketChild.ticketPriceALL();
-        float ticketPricePensioners = ticketPensioners.ticketPriceALL();
+        float ticketPrice = ticket.ticketPriceAll();
+        float ticketPriceChild = ticketChild.ticketPriceAll();
+        float ticketPricePensioners = ticketPensioners.ticketPriceAll();
         float ticketPriceAll = ticketPrice + ticketPriceChild + ticketPricePensioners;
 
         infoApp.setText("Стоимость всех билетов " + ticketPriceAll + " монет\n"
